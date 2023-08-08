@@ -9,7 +9,7 @@
     $servername = "localhost";
     $username = "root" ;
     $password = "" ;
-    $db = "directions";
+    $db = "getexample";
 
     $conn = new mysqli($servername, $username, $password, $db);
     if ($conn->connect_error) {
